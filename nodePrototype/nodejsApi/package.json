@@ -1,0 +1,21 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env Node_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env Node_ENV=production nodemon ./bin/www.js"
+  },
+  "author": "awwwk",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "redis": "^2.8.0",
+    "xss": "^1.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
